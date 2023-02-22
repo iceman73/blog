@@ -1,10 +1,9 @@
 ---
 layout: home
-permalink: "/"
-title: Athena Jekyll Theme
+permalink: /
+title: Chris' Thoughts and Likes
 
 ---
-
-A simple and elegant theme for Jekyll and GitHub Pages.
+A simple blog on items I am interested in and helper pages on common things people search for.
 
 
