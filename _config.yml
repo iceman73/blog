@@ -1,38 +1,28 @@
-
-# SEO
-title: Swiss Jekyll Theme
-description: A bold typographic theme inspired by Swiss design.
-
-# social
-social_link: twitter
-social_username: broccolini
-github_repo: athena # the GitHub repo name for your project
-github_username: broccolini
+title: Chris Stocker
+description: Blogging on the things I like most
+social_link: |-
+  twitter: https://twitter.com/BarRageHaus
+  facebook: https://www.facebook.com/christopher.stocker1/
+  linkedin: https://www.linkedin.com/in/cstocker/
+social_username: stocker
+github_repo: blog
+github_username: iceman73
 theme_color: black
-
-# Theme
-remote_theme: 'internet-de-france/swiss'
-baseurl: '/blog'
-
-# Defaults
-
+remote_theme: internet-de-france/swiss
+baseurl: /blog
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ''
+      type: pages
     values:
-      category_name: ""
-  -
-    scope:
-      path: ""
-      type: "posts"
+      category_name: ''
+  - scope:
+      path: ''
+      type: posts
     values:
-      categories: ""
-
-# Stastic UI
-remote_theme_layouts: 
-  - ""
+      categories: ''
+remote_theme_layouts:
+  - ''
   - default
   - page
   - post
@@ -43,7 +33,6 @@ social_links:
   - instagram
   - medium
   - dribbble
-
 theme_colors:
   - black
   - blue
@@ -53,5 +42,3 @@ theme_colors:
   - red
   - white
   - yellow
-
-
